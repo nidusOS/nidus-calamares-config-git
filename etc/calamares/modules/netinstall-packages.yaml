@@ -1,0 +1,198 @@
+- name: "Accessories"
+  description: "Accessories"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - cava
+    - flameshot
+    - speedtest-cli
+    - stow
+    - tldr
+    - zathura-pdf-mupdf
+    - moc-pulse
+    - xelph-mocicon-git
+- name: "EyeCandy"
+  description: "Do not install these on Virtual Machines, meant for bare metal installs only."
+  critical: false
+  hidden: false
+  selected: true
+  expanded: true
+  packages:
+    - picom-jonaburg-git
+- name: "Task managers."
+  description: "System resource monitors."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - htop
+    - gotop-bin
+    - btop
+- name: "Asian fonts."
+  description: "CJK fonts."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - adobe-source-han-serif-cn-fonts
+    - adobe-source-han-serif-jp-fonts
+    - adobe-source-han-serif-kr-fonts
+    - adobe-source-han-serif-otc-fonts
+    - adobe-source-han-serif-tw-fonts
+- name: "System fetch applications"
+  description: "Choose a fetch application"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - uwufetch-git
+    - neofetch
+    - screenfetch
+- name: "Bluetooth Support"
+  description: "Select the entire category to have bluetooth support"
+  critical: false
+  hidden: true
+  selected: true
+  expanded: false
+  packages:
+    - blueberry
+    - bluez
+    - bluez-libs
+    - bluez-utils
+- name: "Development"
+  description: "Development Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - python3
+    - ripgrep
+    - python-pip
+    - nodejs
+    - npm
+    - unity-editor-lts
+    - atom
+    - code
+    - emacs
+    - git
+    - meld
+    - neovim
+    - tmux-plugin-manager
+    - zenity
+- name: "Disk & USB Tools"
+  description: "Drive Manipulation Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - gparted
+- name: "Internet"
+  description: "Internet & Social Tools"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "Browsers"
+        description: "Internet Browsers."
+        selected: false
+        packages:
+           - chromium
+           - firefox-i18n-$LOCALE
+           - firefox-developer-edition
+           - firefox-adblock-plus
+           - midori
+           - qutebrowser
+           - epiphany
+           - falkon
+           - netsurf
+           - otter-browser
+           - seamonkey
+           - vivaldi
+      - name: "E-mail Clients"
+        description: "Various Email Clients"
+        selected: false
+        packages:
+           - claws-mail
+           - evolution
+           - geary
+           - kmail
+           - thunderbird
+           - trojita
+      - name: "Social Clients"
+        description: "Social Video & Chat Clients"
+        selected: false
+        packages:
+          - discord
+          - discord-canary
+          - element-desktop
+          - fractal
+          - mumble
+          - neochat
+          - pidgin
+          - signal-desktop
+          - telegram-desktop
+          - wire-desktop
+- name: "LibreOffice"
+  description: "Fresh Version"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - hunspell-$LOCALE
+- name: "Password Managers"
+  description: "Securely Store & Manage Passwords"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bitwarden
+    - bitwarden-cli
+    - keepassxc
+    - lastpass-cli
+- name: "Terminal Emulators"
+  description: "Extra Terminal Emulators"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - alacritty
+    - kitty
+    - rxvt-unicode
+    - terminator
+    - xterm
+- name: "Video Tools"
+  description: "Video Players, Editors, Converters & Other"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "Video Players"
+        description: "Selection of Video Players"
+        selected: false
+        packages:
+           - vlc
+           - mpv 
+      - name: "Video Editors"
+        description: "Selection of Video Capture & Editors"
+        selected: false
+        packages:
+           - kdenlive
+           - obs-studio
+           - simplescreenrecorder
+      - name: "Other Video Tools"
+        description: "Various other Video Tools"
+        selected: false
+        packages:
+          - youtube-dl

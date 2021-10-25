@@ -1,0 +1,115 @@
+- name: "Base"
+  description: "important hidden base packages"
+  critical: true
+  hidden: true
+  selected: true
+  expanded: false
+  packages:
+    - linux
+    - linux-headers
+    - base-devel
+- name: "Package managers."
+  description: "Select your package managers."
+  critical: true
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - flatpak
+    - gnome-software
+    - pamac-aur
+    - paru
+    - paru-git
+    - trizen
+    - trizen-git
+    - yay-bin
+- name: "Processor U-Code"
+  description: "Select Your CPU's Microcode"
+  critical: true
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - amd-ucode
+    - intel-ucode
+- name: "Optimus Manager"
+  description: "Enable Intel/Nvidia GPU Switching"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - optimus-manager
+    - optimus-manager-qt
+    - bbswitch
+- name: "Nvidia GPU Drivers + DKMS"
+  description: "Select DKMS For Custom Kernel only."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - lib32-nvidia-utils 
+    - lib32-vulkan-icd-loader
+    - nvidia
+    - nvidia-dkms
+    - nvidia-prime
+    - nvidia-settings
+    - nvidia-utils
+    - vulkan-icd-loader 
+- name: "Noveau GPU Drivers"
+  description: "Open Source GPU Driver"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-nouveau
+- name: "Intel GPU Drivers"
+  description: "Intel Graphics drivers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - lib32-mesa 
+    - lib32-vulkan-icd-loader
+    - lib32-vulkan-intel 
+    - vulkan-icd-loader 
+    - vulkan-intel 
+    - xf86-video-intel
+- name: "Nvidia Tools"
+  description: "Expand & Select Only What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - cuda
+    - bumblebee
+    - nvtop
+- name: "AMD GPU Drivers"
+  description: "Installs AMD Graphics drivers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - amdvlk
+    - lib32-mesa 
+    - lib32-vulkan-icd-loader
+    - lib32-vulkan-radeon 
+    - mesa
+    - radeontop
+    - vulkan-icd-loader 
+    - vulkan-radeon 
+    - xf86-video-amdgpu
+- name: "Generic GPU Drivers"
+  description: "Various Other xf86 drivers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-openchrome
+    - xf86-video-vesa

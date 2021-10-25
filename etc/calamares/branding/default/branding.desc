@@ -1,0 +1,35 @@
+componentName:  default
+welcomeStyleCalamares:   false
+welcomeExpandingLogo:   true
+windowExpanding:    normal
+windowSize: 800px,520px
+windowPlacement: center
+sidebar: widget
+navigation: widget
+
+strings:
+    productName:         Xelph Linux
+    shortProductName:    Xelph
+    version:             2021.01.1
+    shortVersion:        2021.01.1
+    versionedName:       Xelph Linux
+    shortVersionedName:  Xelph Linux
+    bootloaderEntryName: Generic
+
+images:
+    productIcon:         "nyarch.png"
+    productLogo:         "nyarch.png"
+    productWelcome:      "3-banner.png"
+
+style:
+   sidebarBackground:    "#2E3440"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#000000"
+   sidebarTextHighlight: "#5E81AC"
+
+slideshow:               "show.qml"
+slideshowAPI: 2
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
