@@ -8,18 +8,18 @@ sidebar: widget
 navigation: widget
 
 strings:
-    productName:         Xelph Linux
-    shortProductName:    Xelph
-    version:             2021.01.1
-    shortVersion:        2021.01.1
-    versionedName:       Xelph Linux
-    shortVersionedName:  Xelph Linux
+    productName:         nidusOS
+    shortProductName:    nidus
+    version:             2021.10.25
+    shortVersion:        2021.10.25
+    versionedName:       nidusOS
+    shortVersionedName:  nidusOS
     bootloaderEntryName: Generic
 
 images:
     productIcon:         "nyarch.png"
     productLogo:         "nyarch.png"
-    productWelcome:      "3-banner.png"
+    productWelcome:      "banner.png"
 
 style:
    sidebarBackground:    "#2E3440"
